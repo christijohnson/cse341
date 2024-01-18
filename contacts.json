@@ -1,0 +1,23 @@
+{
+    "contact": {
+        "firstName": "Kevin",
+        "lastName": "Johnson",
+        "email": "kevinj@johnsonfam.family",
+        "favoriteColor": "Purple",
+        "birthday": "02/08/73"
+    },
+    "contact2": {
+        "firstName": "Kati",
+        "lastName": "Johnson",
+        "email": "katij@johnsonfam.family",
+        "favoriteColor": "Teal",
+        "birthday": "05/27/05"
+    },
+    "contact3": {
+        "firstName": "Bregg",
+        "lastName": "Johnson",
+        "email": "grettj@johnsonfam.family",
+        "favoriteColor": "Black",
+        "birthday": "07/21/92"
+    }
+}
