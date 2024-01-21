@@ -1,1 +1,17 @@
-GET http://localhost:5051/contacts
+GET http://localhost:8080/contacts
+
+GET http://localhost:8080/contacts/65ab52273d58778daa8ceecb
+
+GET http://localhost:8080/contacts/65ab52273d58778daa8ceecc
+
+GET http://localhost:8080/contacts/65ab52273d58778daa8ceecd
+
+// production on Render
+
+GET http://cse-341-heni.onrender.com/contacts
+
+GET http://cse-341-heni.onrender.com/contacts/65ab52273d58778daa8ceecb
+
+GET http://cse-341-heni.onrender.com/contacts/65ab52273d58778daa8ceecc
+
+GET http://cse-341-heni.onrender.com/contacts/65ab52273d58778daa8ceecd
