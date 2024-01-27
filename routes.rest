@@ -1,17 +1,71 @@
 GET http://localhost:8080/contacts
-
+#######
 GET http://localhost:8080/contacts/65ab52273d58778daa8ceecb
-
+######
 GET http://localhost:8080/contacts/65ab52273d58778daa8ceecc
-
+####
 GET http://localhost:8080/contacts/65ab52273d58778daa8ceecd
+###
+POST http://localhost:8080/contacts HTTP/1.1
+content-type: application/json
+
+    {
+        "firstName": "Gregg",
+        "lastName": "Johnson",
+        "email": "greggj@johnsonfam.family",
+        "favoriteColor": "Orange",
+        "birthday": "02/21/98"
+    }
+
+###
+PUT http://localhost:8080/contacts/65ab52273d58778daa8ceecd HTTP/1.1
+content-type: application/json
+
+    {
+        "firstName": "Brett",
+        "lastName": "Johnson",
+        "email": "brettj@johnsonfam.family",
+        "favoriteColor": "Black",
+        "birthday": "10/07/96"
+    }
+
+###
+DELETE http://localhost:8080/contacts/65b4755791652157f9de1901 HTTP/1.1
+content-type: application/json
 
 // production on Render
-
+###
 GET http://cse-341-heni.onrender.com/contacts
-
+###
 GET http://cse-341-heni.onrender.com/contacts/65ab52273d58778daa8ceecb
-
+###
 GET http://cse-341-heni.onrender.com/contacts/65ab52273d58778daa8ceecc
-
+###
 GET http://cse-341-heni.onrender.com/contacts/65ab52273d58778daa8ceecd
+###
+POST http://cse-341-heni.onrender.com/contacts HTTP/1.1
+content-type: application/json
+
+    {
+        "firstName": "Gregg",
+        "lastName": "Johnson",
+        "email": "greggj@johnsonfam.family",
+        "favoriteColor": "Orange",
+        "birthday": "02/21/98"
+    }
+
+###
+PUT http://cse-341-heni.onrender.com/contacts/65ab52273d58778daa8ceecd HTTP/1.1
+content-type: application/json
+
+    {
+        "firstName": "Brett",
+        "lastName": "Johnson",
+        "email": "brettj@johnsonfam.family",
+        "favoriteColor": "Black",
+        "birthday": "10/07/96"
+    }
+
+###
+DELETE http://cse-341-heni.onrender.com/contacts/65b4755791652157f9de1901 HTTP/1.1
+content-type: application/json
