@@ -47,25 +47,25 @@ POST http://cse-341-heni.onrender.com/contacts HTTP/1.1
 content-type: application/json
 
     {
-        "firstName": "Gregg",
-        "lastName": "Johnson",
-        "email": "greggj@johnsonfam.family",
-        "favoriteColor": "Orange",
-        "birthday": "02/21/98"
-    }
-
-###
-PUT http://cse-341-heni.onrender.com/contacts/65ab52273d58778daa8ceecd HTTP/1.1
-content-type: application/json
-
-    {
         "firstName": "Brett",
         "lastName": "Johnson",
         "email": "brettj@johnsonfam.family",
         "favoriteColor": "Black",
-        "birthday": "10/07/96"
+        "birthday": "07/21/92"
     }
 
 ###
-DELETE http://cse-341-heni.onrender.com/contacts/65b4755791652157f9de1901 HTTP/1.1
+PUT http://cse-341-heni.onrender.com/contacts/65b47b896e06d5f85106c7db HTTP/1.1
+content-type: application/json
+
+    {
+        "firstName": "Christi",
+        "lastName": "Johnson",
+        "email": "christij@johnsonfam.family",
+        "favoriteColor": "I can't pick a favorite",
+        "birthday": "12/15/77"
+    }
+
+###
+DELETE http://cse-341-heni.onrender.com/contacts/65b47b896e06d5f85106c7db HTTP/1.1
 content-type: application/json
